@@ -1,0 +1,111 @@
+BODY {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px;
+}
+img {border:0 none;}
+ul,li{ list-style-type:none;}
+
+/*.index_bg01 {
+	BACKGROUND: url(../images/banner_bg01.gif) repeat-x 0px 0px
+}
+.index_bg02 {
+	BACKGROUND: url(../images/banner_bg02.gif) repeat-x 0px 0px
+}
+.index_bg03 {
+	BACKGROUND: url(../images/banner_bg03.gif) repeat-x 0px 0px
+}
+.index_bg04 {
+	BACKGROUND: url(../images/banner_bg04.gif) repeat-x 0px 0px
+}
+.index_bg05 {
+	BACKGROUND: url(../images/banner_bg05.gif) repeat-x 0px 0px
+}
+*/#warp {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; HEIGHT: 420px;; PADDING-TOP: 0px;
+}
+.banner {
+	Z-INDEX: 99; MARGIN: 0px auto; WIDTH: 1150px; HEIGHT: 420px; _width: 1148px
+}
+.banner_l {
+	MARGIN-TOP: 200px; WIDTH: 23px; FLOAT: left
+}
+.banner_r {
+	MARGIN-TOP: 200px; WIDTH: 23px; FLOAT: right
+}
+.bannerImg {
+	POSITION: relative; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 1100px; PADDING-RIGHT: 0px; FLOAT: left; PADDING-TOP: 0px
+}
+.bannerImg .bannerPage {
+	POSITION: absolute; TOP: 365px; LEFT: 550px;;
+}
+.bannerImg .bannerPage A {
+	MARGIN-RIGHT: 2px
+}
+.bannerImg .bannerPage A IMG {
+	VERTICAL-ALIGN: middle
+}
+.slides_container {
+	POSITION: relative; WIDTH: 1100px; OVERFLOW: hidden
+}
+.pagination {
+	MARGIN: 26px auto 0px
+}
+.pagination LI {
+	MARGIN: 0px 1px; FLOAT: left
+}
+.pagination LI A {
+	BACKGROUND-IMAGE: url(/images/pagination.png); WIDTH: 15px; DISPLAY: block; BACKGROUND-POSITION: 0px -1px; FLOAT: left; HEIGHT: 0px; OVERFLOW: hidden; PADDING-TOP: 12px
+}
+.pagination LI.current A {
+	BACKGROUND-POSITION: 0px -18px
+}
+
+.banner .w1200 {
+    width: 1200px;
+    position: absolute;
+    left: 50%;
+    margin: 0 0 0 -600px;
+    overflow: hidden;
+}
+.banner .w1200 h5 {
+    font-size: 36px;
+    margin: 106px 50px 26px;
+    line-height: 50px;
+    color: #fff;
+    font-weight: normal;
+    text-transform: inherit;
+    text-align: center;
+}
+.banner .w1200 p {
+    font-size: 16px;
+    color: #fff;
+    margin: 40px auto!important;
+    padding: 0 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 90%;
+    text-align: center;
+}
+
+.banner .w1300 {
+    width: 1200px;
+    position: absolute;
+    left: 50%;
+    margin: 0 0 0 -600px;
+    overflow: hidden;
+}
+
+.banner .w1300 h5 {
+    font-size: 36px;
+    margin: 106px 20px 26px;
+    line-height: 50px;
+    color: #fff;
+    font-weight: normal;
+    text-transform: inherit;
+}
+
+.banner .desc {
+    margin-left: 20px;
+    font-size: 18px;
+    color: #fff;
+}

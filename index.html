@@ -1,0 +1,216 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>安全科技有限公司</title>
+    <meta name="keywords" content="安全科技有限公司" />
+    <meta name="description" content="安全科技有限公司" />
+    <link href="css/css.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/slides.css" />
+    <script src="js/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/pogo-slider.min.css">
+</head>
+
+<body>
+<div class="top_xian"></div>
+<div class="b">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+            <td width="425" rowspan="2" style="display:none;"><a href=""><img src="images/logo.jpg" width="253" height="103" /></a></td>
+            <td height="50" align="right" class="top_right" style="position:relative;">
+                <a href="" target="_blank" style="display:none;"><img src="images/t_weibo.jpg" />官方微博</a>
+                <a href="javascript:;" class="qrcodemenu" target="_blank" style="display:none;><img src="images/t_weixin.jpg" />官方微信</a>
+                <a href="javascript:;" style="display:none;" class="qrcodemenu2" target="_blank"><img src="images/t_qrcode.jpg" class="qrcode"></a>
+
+                <script>
+                    $(".qrcodemenu").each(function(){
+                        $(this).mouseover(function(){
+                            $(".top_qrcode").stop(true).slideDown();
+                        });
+                    })
+                    $(".qrcodemenu").each(function(){
+                        $(this).mouseout(function(){
+                            $(".top_qrcode").stop(true).slideUp();
+                        });
+                    })
+                    $(".top_qrcode").mouseover(function(){
+                        $(".top_qrcode").stop(true).show();
+                    });
+                    $(".top_qrcode").mouseout(function(){
+                        $(".top_qrcode").stop(true).hide();
+                    });
+                    $(".qrcodemenu2").each(function(){
+                        $(this).mouseover(function(){
+                            $(".top_qrcode2").stop(true).slideDown();
+                        });
+                    })
+                    $(".qrcodemenu2").each(function(){
+                        $(this).mouseout(function(){
+                            $(".top_qrcode2").stop(true).slideUp();
+                        });
+                    })
+                    $(".top_qrcode2").mouseover(function(){
+                        $(".top_qrcode2").stop(true).show();
+                    });
+                    $(".top_qrcode2").mouseout(function(){
+                        $(".top_qrcode2").stop(true).hide();
+                    });
+                </script>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <ul class="menu">
+                    <li><a href="" class="active">首&nbsp;&nbsp;&nbsp;&nbsp;页</a></li>
+                    <li><a href="solutions&cid=17.html">解决方案</a>
+                        <div>
+                            <ul>
+                                <li>
+                                    <a href="solutions&cid=17.html"><img src="images/dian.jpg" />传统企业网信息安全解决方案</a>
+                                    <a href="solutions&cid=18.html"><img src="images/dian.jpg" />小型企业和分支机构解决方案</a>
+                                    <!--<a href="/index.php?m=index.solutions&cid=19"><img src="images/dian.jpg" />制播系统交换区解决方案</a>-->
+                                    <!--<a href="/index.php?m=index.solutions&cid=20"><img src="images/dian.jpg" />制播系统安全解决方案</a>-->
+                                    <!--<a href="/index.php?m=index.solutions&cid=21"><img src="images/dian.jpg" />播出系统边界解决方案</a>-->
+                                </li>
+
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="temp-NGFW.html">安全产品</a>
+                        <div style="width:160px;">
+                            <ul>
+                                <li>
+                                    <a href="temp-NGFW.html"><img src="images/dian.jpg" />NGFW下一代防火墙系统</a>
+                                    <a href="temp-IPS.html"><img src="images/dian.jpg" />IPS入侵防护系统</a>
+                                    <a href="temp-IDS.html"><img src="images/dian.jpg" />IDS入侵检测系统</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+</div>
+<script>
+//    var w = $(window).width();
+      var w = 185; //控制导航栏弹出层
+    $(".menu").find("li").each(function(){
+        $(this).find("div").css({"width":(w)+"px"});
+        $(this).mouseover(function(){
+            $(this).find("div").stop(true).slideDown();
+        });
+        $(this).find("div").mouseover(function(){
+            $(this).stop(true).show();
+        });
+        $(this).mouseout(function(){
+            $(this).find("div").stop(true).hide();
+        });
+    });
+    $(".menu").find("li>div>ul>li>a").each(function(){
+        $(this).mouseover(function(){
+            $(this).find("img").attr("src","images/dian2.jpg")
+        });
+        $(this).mouseout(function(){
+            $(this).find("img").attr("src","images/dian.jpg")
+        });
+    });
+</script>
+<style>
+    .pogoSlider-dir-btn{display:none;}
+    /*.pogoSlider-nav{margin-left:45%; margin-bottom:-100px; top:570px;}*/
+    .pogoSlider-nav{margin-left:45%; margin-bottom:0px; top:400px;}
+    .pogoSlider-nav li{display:inline; margin-right:10px;}
+    .pogoSlider-nav-btn{border-radius:0px; width:40px; height:7px; background:#FFF;}
+    .pogoSlider-nav-btn--selected{background:#323e78;}
+</style>
+<div class="index_banner">
+    <div class="dowebok">
+        <div class="pogoSlider" id="dowebok">
+            <div class="pogoSlider-slide" style="background:url(var/upload/pic/2016/01/16/30b353935e296a3dd86aba0434ccc841.jpg) center; cursor:pointer;" onclick="window.location='temp-NGFW.html'"></div>
+            <div class="pogoSlider-slide" style="background:url(var/upload/pic/2015/12/15/IDS.jpg) center; cursor:pointer;" onclick="window.location='temp-IDS.html'"></div>
+            <div class="pogoSlider-slide" style="background:url(var/upload/pic/2015/12/15/ips_index.png) center; cursor:pointer;" onclick="window.location='temp-IPS.html'"></div>
+        </div>
+    </div>
+    <script src="js/jquery.pogo-slider.js"></script>
+
+    <script>
+        <!--轮播图片：pogoSlider(） – jQuery幻灯片插件-->
+        $(function(){
+            $('#dowebok').pogoSlider({
+                autoplay:true,
+                autoplayTimeout:5000,
+                displayProgess:false,
+                generateNav:true,
+                navPosition:"bottom",
+                targetWidth:$(window).width(),
+                targetHeight:450
+            });
+        });
+    </script>
+</div>
+<div class="h_30"></div>
+<div class="b">
+    <div class="index_lm lanmus1">
+        <img src="images/index_lm_1.jpg" />
+        <div>
+            <div>
+                <dt>行业解决方案</dt>
+                <dd>本公司致力于为用户建立信息安全防御的有效屏障，总结自有产品结合行业的信息安全防御规律，为保护企业的内部与外部避免遭受攻击，以基本防御为出发点，以综合立体防御为目标，为用户提供优质健康的信息安全环境，公司提供主动或被动信息安全保护的多层次方法。解决方案主要涉及了广电、军工、政府、企业4个行业...&nbsp;&nbsp;&nbsp;&nbsp;<a href="solutions&cid=17.html">查看更多</a></dd>
+            </div>
+            <ul>
+                <a href="solutions&cid=17.html">传统企业网信息安全解决方案</a>
+                <a href="solutions&cid=18.html">小型企业和分支机构解决方案</a>
+            </ul>
+        </div>
+    </div>
+    <div class="index_lm lanmus2" style="display:none;">
+        <img src="images/index_lm_2.jpg" />
+        <div>
+            <div>
+                <dt>安全产品中心</dt>
+                <dd>公司致力于信息安全领域的探索和新产品的研发，为了适应网络技术的不断发展以及网络建设的复杂化，以信息安全等级保护为指导思想，逐步实现了以信息等级保护为核心的信息安全系列产品，通过高效的网络隔离、强有力的攻击防御能力、全覆盖模式的管理平台以及优秀的交付产品打造立体安全防御体系。公司全线安全产品涉及信息安全等级保护边界安全、综合管理...&nbsp;&nbsp;&nbsp;&nbsp;<a href="temp-IPS.html">查看更多</a></dd>
+            </div>
+            <ul>
+                <a href="temp-NGFW.html">NGFW下一代防火墙系统</a>
+                <a href="temp-IPS.html">IPS入侵防护系统</a>
+                <a href="temp-IDS.html">IDS入侵检测系统</a>
+            </ul>
+        </div>
+    </div>
+    <ul class="index_lm_menu">
+        <li class="active lanmu1" data="1"><img src="images/index_lm10.png" /><div style="color:#FFF;">解决方案<span>INDUSTRY SOLUTION</span></div></li>
+        <li class="lanmu2" data="2"><img src="images/index_lm2.png" /><div>产品中心<span>PRODUCT CENTER</span></div></li>
+        <div class="clear"></div>
+    </ul>
+</div>
+<script>
+    $(".index_lm_menu").find("li").each(function(){
+        $(this).mouseover(function(){
+            $(".index_lm_menu").find("li").each(function(){
+                $(this).removeAttr("class");
+                $(this).find("div").css({"color":"#676767"});
+                $(this).find("img").attr("src","images/index_lm"+($(this).attr("data"))+".png");
+                $(".lanmus"+($(this).attr("data"))+"").hide();
+            });
+            $(".lanmus"+($(this).attr("data"))+"").show();
+            $(this).attr("class","active");
+            $(this).find("img").attr("src","images/index_lm"+($(this).attr("data"))+"0.png");
+            $(this).find("div").css({"color":"#FFF"});
+        });
+    });
+</script>
+<div class="h_50"></div>
+
+<div class="clear"></div>
+<div class="h_50"></div>
+
+<div class="bottom2">
+    <div class="b">
+        <div style="float:left;"></div>
+</div>
+</body>
+</html>
+
+

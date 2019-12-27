@@ -1,0 +1,219 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>安全产品 - 安全科技有限公司</title>
+    <meta name="keywords" content="安全科技有限公司" />
+    <meta name="description" content="安全科技有限公司" />
+    <link href="css/css.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/slides.css" />
+    <script src="js/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/pogo-slider.min.css">
+</head>
+
+<body>
+<div class="top_xian"></div>
+<div class="b">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+	  <tr>
+	    <td width="425" rowspan="2" style="display:none;"><a href="index.html"><img src="images/logo.jpg" width="253" height="103" /></a></td>
+	    <td height="50" align="right" class="top_right" style="position:relative;">
+        	<a href="" target="_blank" style="display:none;"><img src="images/t_weibo.jpg" />官方微博</a>
+        	<a href="javascript:;" class="qrcodemenu" target="_blank" style="display:none;"><img src="images/t_weixin.jpg" />官方微信</a>
+        	<a href="javascript:;" style="display:none;" class="qrcodemenu2" target="_blank"><img src="images/t_qrcode.jpg" class="qrcode"/></a>
+
+            <script>
+            	$(".qrcodemenu").each(function(){
+					$(this).mouseover(function(){
+						$(".top_qrcode").stop(true).slideDown();
+					});
+				})
+            	$(".qrcodemenu").each(function(){
+					$(this).mouseout(function(){
+						$(".top_qrcode").stop(true).slideUp();
+					});
+				})
+				$(".top_qrcode").mouseover(function(){
+					$(".top_qrcode").stop(true).show();
+				});
+				$(".top_qrcode").mouseout(function(){
+					$(".top_qrcode").stop(true).hide();
+				});
+            	$(".qrcodemenu2").each(function(){
+					$(this).mouseover(function(){
+						$(".top_qrcode2").stop(true).slideDown();
+					});
+				})
+            	$(".qrcodemenu2").each(function(){
+					$(this).mouseout(function(){
+						$(".top_qrcode2").stop(true).slideUp();
+					});
+				})
+				$(".top_qrcode2").mouseover(function(){
+					$(".top_qrcode2").stop(true).show();
+				});
+				$(".top_qrcode2").mouseout(function(){
+					$(".top_qrcode2").stop(true).hide();
+				});
+            </script>
+        </td>
+    </tr>
+	  <tr>
+	    <td>
+        	<ul class="menu">
+                <li><a href="index.html">首&nbsp;&nbsp;&nbsp;&nbsp;页</a></li>
+                <li><a href="solutions&cid=17.html">解决方案</a>
+                    <div>
+                        <ul>
+                            <li>
+                                <a href="solutions&cid=17.html"><img src="images/dian.jpg" />传统企业网信息安全解决方案</a>
+                                <a href="solutions&cid=18.html"><img src="images/dian.jpg" />小型企业和分支机构解决方案</a>
+                                <!--<a href="/index.php?m=index.solutions&cid=19"><img src="images/dian.jpg" />制播系统交换区解决方案</a>-->
+                                <!--<a href="/index.php?m=index.solutions&cid=20"><img src="images/dian.jpg" />制播系统安全解决方案</a>-->
+                                <!--<a href="/index.php?m=index.solutions&cid=21"><img src="images/dian.jpg" />播出系统边界解决方案</a>-->
+                            </li>
+
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="temp-NGFW.html">安全产品</a>
+                    <div style="width:160px;">
+                        <ul>
+                            <li>
+                                <a href="temp-NGFW.html"><img src="images/dian.jpg" />NGFW下一代防火墙系统</a>
+                                <a href="temp-IPS.html"><img src="images/dian.jpg" />IPS入侵防护系统</a>
+                                <a href="temp-IDS.html"><img src="images/dian.jpg" />IDS入侵检测系统</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </td>
+    </tr>
+  </table>
+</div>
+<script>
+	var w = $(window).width();
+	w=190;
+	$(".menu").find("li").each(function(){
+		$(this).find("div").css({"width":(w)+"px"});
+		$(this).mouseover(function(){
+			$(this).find("div").stop(true).slideDown();
+		});
+		$(this).find("div").mouseover(function(){
+			$(this).stop(true).show();
+		});
+		$(this).mouseout(function(){
+			$(this).find("div").stop(true).hide();
+		});
+	});
+	$(".menu").find("li>div>ul>li>a").each(function(){
+		$(this).mouseover(function(){
+			$(this).find("img").attr("src","images/dian2.jpg")
+		});
+		$(this).mouseout(function(){
+			$(this).find("img").attr("src","images/dian.jpg")
+		});
+	});
+</script>
+<div class="neiye_banner" style="background:url(var/upload/pic/2015/12/15/fae61a5e681a5c99f060ec54f9db7834.jpg) no-repeat center #eeeeee; display:none;"></div>
+<div class="banner" style="background:url(var/upload/pic/2015/12/15/15284444139365kxdyc.jpg) no-repeat center center; height: 350px; width: 100%; z-index: 1;">
+    <div class="w1300">
+        <h5>入侵防护安全产品</h5>
+        <p class="desc">高效的网络隔离  强有力的攻击防御能力  全覆盖模式的管理平台  --立体安全防御体系</p>
+    </div>
+
+</div>
+<div class="h_30"></div>
+<div class="b">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+	  <tr>
+	    <td width="208" valign="top">
+        	        	<ul class="neiye_left2">
+            	                <a  class="active plist" data="56" class="plist" href="javascript:;">安全类</a>
+                            <div style="display:block;" class="56 clist">
+                                <a href="temp-NGFW.html">NGFW下一代防火墙系统</a>
+                                <a href="temp-IPS.html">IPS入侵防护系统</a>
+                                <a href="temp-IDS.html">IDS入侵检测系统</a>
+                            </div>
+                            </ul>
+
+<script>
+	$(".neiye_left2").find(".plist").each(function(){
+		$(this).click(function(){
+			$(".clist").slideUp();
+			$(this).parent().find("."+$(this).attr("data")).slideDown();
+		});
+	});
+</script>        </td>
+	    <td width="56" valign="top" class="neiye_jian"><img src="images/neiye_jian.jpg" width="56" height="39" /></td>
+	    <td valign="top">
+			        	<div class="neiye_right_title">
+            	<div>边界安全类</div>
+                <dd>您的位置 > <a href="index.html">首页</a> > <A href="temp-NGFW.html">安全产品</A>  > <span>IPS入侵防护系统</span></dd>
+            </div>
+            <div class="neiye_body chanpin_content">
+            	<p style="text-align:center;"><br /></p>            </div>
+			            <div class="chanpin_menu">
+           	  <a href="javascript:;" data="1" class="active">产品描述</a>
+           	  <a href="javascript:;" data="2">产品方案</a>
+            </div>
+          <div class="chanpinlist_1 chanpinlist neiye_body">
+                <p style="text-align:center;line-height:2em;"><strong><span style="font-size:16px;font-family:微软雅黑, &#39;microsoft yahei&#39;;">IPS入侵防护系统</span></strong></p>
+                <p style="line-height:2em;text-indent:2em;"><strong><span style="font-size:14px;font-family:微软雅黑, &#39;microsoft yahei&#39;;">产品概述</span></strong></p>
+                <p style="line-height:2em;text-indent:2em;"><span style="font-size:12px;font-family:微软雅黑, &#39;microsoft yahei&#39;;">IPS可依照一定的安全策略，对网络运行状况进行监视，可有效过滤病毒、木马、蠕虫、间谍软件、漏洞攻击、逃逸攻击等安全威胁，及时识别并阻断入侵行为和未授权网络流量并实时报警，为用户提供 L2-L7 层网络安全防护。</span></p>
+                <p style="line-height:2em;text-indent:2em;"><strong><span style="font-size:14px;font-family:微软雅黑, &#39;microsoft yahei&#39;;">产品亮点</span></strong></p>
+                <p style="line-height:2em;text-indent:2em;"><span style="font-size:12px;font-family:微软雅黑, &#39;microsoft yahei&#39;;">一体化引擎技术</span></p>
+                <p style="line-height:2em;text-indent:2em;"><span style="font-size:12px;font-family:微软雅黑, &#39;microsoft yahei&#39;;">IPS将应用识别、内容检测、URL过滤、入侵检测、病毒识别五个处理引擎合为一个，采用自创高效的正则匹配算法，实现对报文的高效一次性处理。IPS的一体化引擎一次扫描提取报文的信息会根据开启的深度扫描功能动态调整，避免不必要的资源消耗。</span></p>
+                <p style="line-height:2em;text-indent:2em;"><span style="font-size:12px;font-family:微软雅黑, &#39;microsoft yahei&#39;;">持续更新的威胁特征库</span></p>
+                <p style="line-height:2em;text-indent:2em;"><span style="font-size:12px;font-family:微软雅黑, &#39;microsoft yahei&#39;;">特征比对依然是当前入侵检测最常用的技术，也是比较有效和高效的检测方法，依托强大的攻防研究团队，不断进行各种攻防实验研究、新型攻击挖掘，定期更新IPS的威胁特征库，在保障大量已知攻击被准确检测之外，及时响应各种新的攻击，保证入侵检测引擎的识别能力、误报控制都处于业界领先水平。</span></p>
+                <p style="line-height:2em;text-indent:2em;"><span style="font-size:12px;font-family:微软雅黑, &#39;microsoft yahei&#39;;">智能协议识别和深度协议解析</span></p>
+                <p style="line-height:2em;text-indent:2em;"><span style="font-size:12px;font-family:微软雅黑, &#39;microsoft yahei&#39;;">协议识别和分析，是作为检测和防范大量基于应用层的攻击的重要技术，智能协议识别打破传统的通过协议-- 端口映射表判断网络协议的简单机制，通过分析网络报文中包含的协议特征，结合智能端口重定向和协议分析引擎，能够准确的检测出经过伪装或隐藏的、采用动态端口、基于各种应用协议的攻击；</span></p>
+                <p style="line-height:2em;text-indent:2em;"><span style="font-size:12px;font-family:微软雅黑, &#39;microsoft yahei&#39;;">深度协议分析也可及时发现各种协议异常和规范错误，还能将经过变形、编码、压缩的报文进行还原，以防止攻击被漏检测。</span></p>
+                <p style="line-height:2em;text-indent:2em;"><span style="font-size:12px;font-family:微软雅黑, &#39;microsoft yahei&#39;;">基于流量学习的基线检测</span></p>
+                <p style="line-height:2em;text-indent:2em;"><span style="font-size:12px;font-family:微软雅黑, &#39;microsoft yahei&#39;;">入侵行为一般都会与正常流量或报文特征存在一定的差异，但同样入侵手法并非一成不变，网络黑客会根据情况不断的变化攻击入侵手法从而试图绕过安全设备的检测和阻断。IPS可以针对正常网络的行为特征进行学习，从而产生历史数据，一旦有异常出现，则能够立即启动相应的安全策略比如告警、阻断、回探等方式进行。</span></p>
+                <p style="line-height:2em;text-indent:2em;"><span style="font-size:12px;font-family:微软雅黑, &#39;microsoft yahei&#39;;">&nbsp;</span></p><p style="line-height:2em;text-indent:2em;"><span style="font-size:12px;font-family:微软雅黑, &#39;microsoft yahei&#39;;">&nbsp;</span></p><p style="text-align:left;"><br /></p>
+          </div>
+          <div class="chanpinlist_2 chanpinlist neiye_body" style="display:none;">
+            	<p style="text-align:center;line-height:2em;"><strong><span style="font-size:16px;font-family:微软雅黑, &#39;microsoft yahei&#39;">IPS入侵防护系统</span></strong></p><p style="text-align:left;text-indent:2em;line-height:2em;"><strong><span style="font-family:微软雅黑, &#39;microsoft yahei&#39;;font-size:14px">需求分析</span></strong></p><p style="text-align:left;text-indent:2em;line-height:2em;"><span style="font-family:微软雅黑, &#39;microsoft yahei&#39;;font-size:12px">目前，Web应用安全威胁呈现“多、快、高”的发展趋势，即安全事件多、蔓延速度快、安全威胁层次越来越高。被入侵或篡改所带来的危害将不仅仅限于“形象”的损害，甚至会造成巨大的经济损失，网站面临的安全风险日益加剧。</span></p><ul style="list-style-type:disc"><li><p style="text-indent:0em;line-height:2em;"><span style="font-family:微软雅黑, &#39;microsoft yahei&#39;;font-size:12px">网站数据泄露或内容被修改</span></p></li><li><p style="text-indent:0em;line-height:2em;"><span style="font-family:微软雅黑, &#39;microsoft yahei&#39;;font-size:12px">网站出现敏感言论</span></p></li><li><p style="text-indent:0em;line-height:2em;"><span style="font-family:微软雅黑, &#39;microsoft yahei&#39;;font-size:12px">各种敏感言论将影响政府网站的形象，带来政治风险，后果极为严重；</span></p></li><li><p style="text-indent:0em;line-height:2em;"><span style="font-family:微软雅黑, &#39;microsoft yahei&#39;;font-size:12px">网页木马还会威胁到浏览者的客户端,使政府的权威性和公信力受到打击；</span></p></li><li><p style="text-indent:0em;line-height:2em;"><span style="font-family:微软雅黑, &#39;microsoft yahei&#39;;font-size:12px">缺乏网站建设维护机制</span></p><p style="text-indent:0em;line-height:2em;"><strong style="text-indent:2em;"><span style="font-family:微软雅黑, &#39;microsoft yahei&#39;;font-size:14px">方案概述</span></strong></p><p style="text-indent:0em;line-height:2em;"><span style="font-family:微软雅黑, &#39;microsoft yahei&#39;;font-size:12px">WAF产品部署在WEB服务器前，实现了IPV4/IPV6双协议栈下的HTTP/HTTPS流量相关内容的实时分析检测、过滤，来精确判定并阻止各种入侵攻击、恶意代码与非法行为，阻断对Web服务器的恶意访问与非法操作，并提供实时在线的网站内容防篡改、内容防泄漏、防病毒与敏感信息发布过滤，适应Web2.0时代的主动实时监测过滤风险技术，将恶意代码、非授权篡改、应用攻击等众多因素结合在一起进行综合防范，从而做到对Web服务器的多重保护。</span></p></li><li><p style="text-align:center;line-height:2em;"><img src="var/upload/pic/2016/08/29421471485567.png" style="float:none;width:500px;height:307px;" title="1.png" border="0" hspace="0" vspace="0" width="500" height="307" /></p><p style="text-align:left;line-height:2em;"><strong style="text-indent:2em;"><span style="font-family:微软雅黑, &#39;microsoft yahei&#39;;font-size:14px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;应用效果</span></strong></p><p style="line-height:2em;text-indent:2em;"><span style="font-family:微软雅黑, &#39;microsoft yahei&#39;;font-size:12px">防攻击，阻断对Web服务器的恶意访问与非法操作。</span></p><p style="line-height:2em;text-indent:2em;"><span style="font-family:微软雅黑, &#39;microsoft yahei&#39;;font-size:12px">防篡改，启用WAF产品中防篡改模式后，对于可能已被篡改的文件，将向管理员发送邮件报警。提供手工页面同步功能，即时更新缓存的文件内容。</span></p><p style="line-height:2em;text-indent:2em;"><span style="font-family:微软雅黑, &#39;microsoft yahei&#39;;font-size:12px">敏感内容防泄漏，WAF设备可以对向Web服务器提交的URL、URL参数、POST表单内容和Cookie的内容进行禁用词过滤，预防潜在危险。</span></p><p style="line-height:2em;text-indent:2em;"><span style="font-family:微软雅黑, &#39;microsoft yahei&#39;;font-size:12px">防恶意代码，WAF产品内置病毒特征库，对上传到Web服务器和FTP服务器的文件可根据特征库进行病毒扫描；</span></p><p style="line-height:2em;text-indent:2em;"><span style="font-family:微软雅黑, &#39;microsoft yahei&#39;;font-size:12px">有效的统计分析攻击和访问数据，WAF产品可针对网站域名、IP及URL&nbsp;进行攻击、访问及爬虫统计及分析。</span></p><p style="line-height:2em;text-indent:2em;"><strong style="text-indent:2em;"><span style="font-family:微软雅黑, &#39;microsoft yahei&#39;;font-size:14px">产品案例</span></strong></p></li></ul><p style="text-indent:2em;line-height:2em;margin-left:28px;"><span style="font-family:微软雅黑, &#39;microsoft yahei&#39;;font-size:12px">上海某政府网站是政府职能部门信息化建设的重要内容，主要进行政府的信息公开、在线办事、政民互动等业务。而近年来，随着政务网站所运行业务的重要性逐渐增加以及其公众性质使其成为攻击和威胁的主要目标，政府网站所面临的Web应用安全问题越来越复杂，混合威胁的风险正在飞速增长，如网页篡改、蠕虫病毒、DDoS攻击、SQL&nbsp;注入、跨站脚本、Web应用安全漏洞利用等，极大地困扰着政府和公众用户，给政府的政务形象、信息网络和核心业务造成严重的破坏。　</span></p><p style="text-indent:2em;line-height:2em;"><span style="font-family:微软雅黑, &#39;microsoft yahei&#39;;font-size:12px">主要威胁如下：</span></p><ul style="list-style-type:square"><li><p style="text-indent:2em;line-height:2em;"><span style="font-family:微软雅黑, &#39;microsoft yahei&#39;;font-size:12px">网页挂马：将网页中植入恶意代码或链接，以便在用户打开网页时向用户的电脑安装木马软件；</span></p></li><li><p style="text-indent:2em;line-height:2em;"><span style="font-family:微软雅黑, &#39;microsoft yahei&#39;;font-size:12px">网站网页中存在恶意脚本，容易被跨站脚本（XSS）攻击；</span></p></li><li><p style="text-indent:2em;line-height:2em;"><span style="font-family:微软雅黑, &#39;microsoft yahei&#39;;font-size:12px">SQL</span><span style="font-family:微软雅黑, &#39;microsoft yahei&#39;;font-size:12px">注入攻击：未经授权状况下操作数据库中的数据、恶意篡改网页内容、私自添加系统帐号或者是数据库使用者帐号、网页挂木马；</span></p></li><li><p style="text-indent:2em;line-height:2em;"><span style="font-family:微软雅黑, &#39;microsoft yahei&#39;;font-size:12px">内部目录泄露、弱口令攻击；</span></p><p style="text-indent:2em;line-height:2em;"><strong style="text-indent:2em;"><span style="font-family:微软雅黑, &#39;microsoft yahei&#39;;font-size:14px">解决方案</span></strong></p></li></ul><p style="line-height:2em;text-indent:2em;margin-left:28px;"><span style="font-size:12px;font-family:微软雅黑, &#39;microsoft yahei&#39;">在上海门户网站的2条出口链路上分别部署防毒墙和WAF产品。WAF产品</span><span style="font-size:12px;font-family:微软雅黑, &#39;microsoft yahei&#39;">将应用攻击、非授权篡改、恶意代码等众多因素结合在一起进行综合防范，从而做到对Web服务器的多重保护，检测过滤SQL注入、跨站脚本攻击、命令行注入、弱口令攻击等攻击行为，防止网站被篡改、网站数据库内容泄露、系统管理员权限被窃取等破坏行为，防止网站被挂马、植入后门、间谍软件等恶意代码。</span></p><p style="text-align:center;line-height:2em;"><span style="font-size:14px;font-family:微软雅黑"><img src="var/upload/pic/2016/08/59301471485587.png" style="float:none;width:500px;height:427px;" title="2.png" border="0" hspace="0" vspace="0" width="500" height="427" /><br /></span></p><p style="line-height:2em;text-align:center;text-indent:0em;"><span style="font-size:12px;font-family:微软雅黑, &#39;microsoft yahei&#39;">WAF及防毒墙部署图</span></p><p style="text-indent:2em;text-align:left;line-height:2em;"><strong><span style="font-family:微软雅黑, &#39;microsoft yahei&#39;;font-size:14px">实现效果</span></strong><br /></p><ul style="list-style-type:disc;"><li><p style="text-indent:2em;line-height:2em;"><span style="font-family:微软雅黑, &#39;microsoft yahei&#39;;font-size:12px">防止敏感信息泄露：通过对网页内容进行深度扫描检测，快速、准确的分析判断网页页面是否含有非法敏感信息，实时告警响应，阻止不良信息的扩散，满足等级保护的相关要求；</span></p></li><li><p style="text-indent:2em;line-height:2em;"><span style="font-family:微软雅黑, &#39;microsoft yahei&#39;;font-size:12px">通过对HTTP/HTTPS协议进行深入的解析，精确的识别出协议中的各种要素，比如&nbsp;Cookie、Get参数、Post表单等，杜绝各种利用协议漏洞的攻击和权限，阻止各种行为的SQL注入、跨站脚本、命令注入等攻击行为；</span></p></li><li><p style="text-indent:2em;line-height:2em;"><span style="font-family:微软雅黑, &#39;microsoft yahei&#39;;font-size:12px">时检测网页是否挂马，并实时告警响应，为网站安全提供及时有效支持。</span></p></li></ul><p style="line-height:2em;"><span style="font-family:微软雅黑, &#39;microsoft yahei&#39;">&nbsp;</span></p><p style="line-height:2em;"><span style="font-family:微软雅黑, &#39;microsoft yahei&#39;">&nbsp;</span></p><p><br /></p>            </div>
+          <div class="chanpinlist_3 chanpinlist" style="display:none;">
+            	<ul class="chanpin_caselist">
+                	                    <li>
+                                            <!--<a href="/index.php?m=index.productsv&cid=61&id=10" target="_blank">-->
+                                                <img src="var/upload/pic/2016/08/16/3aec65bec2726c91680540addef2948b.jpg" />
+                                            <!--</a>-->
+                                        </li>
+                                        <li>
+                                            <!--<a href="/index.php?m=index.productsv&cid=61&id=7" target="_blank">-->
+                                                <img src="var/upload/pic/2016/08/16/1132b21a670056232e83cc5ab1f42665.png" />
+                                            <!--</a>-->
+                                        </li>
+                                    </ul>
+            </div>
+
+			<script>
+            	$(".chanpin_menu").find("a").each(function(){
+					$(this).click(function(){
+						$(".chanpin_menu").find("a").removeAttr("class");
+						$(this).attr("class","active");
+						$(".chanpinlist").hide();
+						$(".chanpinlist_"+$(this).attr("data")+"").show();
+					});
+				});
+
+            </script>
+        </td>
+    </tr>
+  </table>
+</div>
+<div class="clear"></div>
+<div class="h_50"></div>
+
+<div class="bottom2">
+    <div class="b">
+        <div style="float:left;"></div>
+</div>
+</body>
+</html>
+

@@ -1,0 +1,212 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>安全产品 - 安全科技有限公司</title>
+    <meta name="keywords" content="安全科技有限公司" />
+    <meta name="description" content="安全科技有限公司" />
+    <link href="css/css.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/slides.css" />
+    <script src="js/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/pogo-slider.min.css">
+</head>
+
+
+
+<body>
+<div class="top_xian"></div>
+<div class="b">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+	  <tr>
+	    <td width="425" rowspan="2" style="display:none;"><a href="index.html"><img src="images/logo.jpg" width="253" height="103" /></a></td>
+	    <td height="50" align="right" class="top_right" style="position:relative;">
+        	<a href="" target="_blank" style="display:none;"><img src="images/t_weibo.jpg" />官方微博</a>
+        	<a href="javascript:;" class="qrcodemenu" target="_blank" style="display:none;"><img src="images/t_weixin.jpg" />官方微信</a>
+        	<a href="javascript:;" style="display:none;" class="qrcodemenu2" target="_blank"><img src="images/t_qrcode.jpg" class="qrcode"/></a>
+            
+            <script>
+            	$(".qrcodemenu").each(function(){
+					$(this).mouseover(function(){
+						$(".top_qrcode").stop(true).slideDown();
+					});
+				})
+            	$(".qrcodemenu").each(function(){
+					$(this).mouseout(function(){
+						$(".top_qrcode").stop(true).slideUp();
+					});
+				})
+				$(".top_qrcode").mouseover(function(){
+					$(".top_qrcode").stop(true).show();
+				});
+				$(".top_qrcode").mouseout(function(){
+					$(".top_qrcode").stop(true).hide();
+				});
+            	$(".qrcodemenu2").each(function(){
+					$(this).mouseover(function(){
+						$(".top_qrcode2").stop(true).slideDown();
+					});
+				})
+            	$(".qrcodemenu2").each(function(){
+					$(this).mouseout(function(){
+						$(".top_qrcode2").stop(true).slideUp();
+					});
+				})
+				$(".top_qrcode2").mouseover(function(){
+					$(".top_qrcode2").stop(true).show();
+				});
+				$(".top_qrcode2").mouseout(function(){
+					$(".top_qrcode2").stop(true).hide();
+				});
+            </script>
+        </td>
+    </tr>
+	  <tr>
+	    <td>
+        	<ul class="menu">
+                <li><a href="index.html">首&nbsp;&nbsp;&nbsp;&nbsp;页</a></li>
+                <li><a href="solutions&cid=17.html">解决方案</a>
+                    <div>
+                        <ul>
+                            <li>
+                                <a href="solutions&cid=17.html"><img src="images/dian.jpg" />传统企业网信息安全解决方案</a>
+                                <a href="solutions&cid=18.html"><img src="images/dian.jpg" />小型企业和分支机构解决方案</a>
+                                <!--<a href="/index.php?m=index.solutions&cid=19"><img src="images/dian.jpg" />制播系统交换区解决方案</a>-->
+                                <!--<a href="/index.php?m=index.solutions&cid=20"><img src="images/dian.jpg" />制播系统安全解决方案</a>-->
+                                <!--<a href="/index.php?m=index.solutions&cid=21"><img src="images/dian.jpg" />播出系统边界解决方案</a>-->
+                            </li>
+
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="temp-NGFW.html">安全产品</a>
+                    <div style="width:160px;">
+                        <ul>
+                            <li>
+                                <a href="temp-NGFW.html"><img src="images/dian.jpg" />NGFW下一代防火墙系统</a>
+                                <a href="temp-IPS.html"><img src="images/dian.jpg" />IPS入侵防护系统</a>
+                                <a href="temp-IDS.html"><img src="images/dian.jpg" />IDS入侵检测系统</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </td>
+    </tr>
+  </table>
+</div>
+<script>
+	var w = $(window).width();
+	w=190;
+	$(".menu").find("li").each(function(){
+		$(this).find("div").css({"width":(w)+"px"});
+		$(this).mouseover(function(){
+			$(this).find("div").stop(true).slideDown();
+		});
+		$(this).find("div").mouseover(function(){
+			$(this).stop(true).show();
+		});
+		$(this).mouseout(function(){
+			$(this).find("div").stop(true).hide();
+		});
+	});
+	$(".menu").find("li>div>ul>li>a").each(function(){
+		$(this).mouseover(function(){
+			$(this).find("img").attr("src","images/dian2.jpg")
+		});
+		$(this).mouseout(function(){
+			$(this).find("img").attr("src","images/dian.jpg")
+		});
+	});
+</script>
+<div class="neiye_banner" style="background:url(var/upload/pic/2015/12/15/fae61a5e681a5c99f060ec54f9db7834.jpg) no-repeat center #eeeeee; display:none;"></div>
+
+<div class="banner" style="background:url(var/upload/pic/2015/12/15/15284444139365kxdyc.jpg) no-repeat center center; height: 350px; width: 100%; z-index: 1;">
+    <div class="w1300">
+        <h5>下一代防火墙安全产品</h5>
+        <p class="desc">高效的网络隔离  强有力的攻击防御能力  全覆盖模式的管理平台  --立体安全防御体系</p>
+    </div>
+
+</div>
+<div class="h_30"></div>
+<div class="b">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+	  <tr>
+	    <td width="208" valign="top">
+        	        	<ul class="neiye_left2">
+            	                <a  class="active plist" data="56" class="plist" href="javascript:;">安全类</a>
+                            <div style="display:block;" class="56 clist">
+                                <a href="temp-NGFW.html">NGFW下一代防火墙系统</a>
+                                <a href="temp-IPS.html">IPS入侵防护系统</a>
+                                <a href="temp-IDS.html">IDS入侵检测系统</a>
+                            </div>
+                            </ul>
+
+<script>
+	$(".neiye_left2").find(".plist").each(function(){
+		$(this).click(function(){
+			$(".clist").slideUp();
+			$(this).parent().find("."+$(this).attr("data")).slideDown();
+		});
+	});
+</script>        </td>
+	    <td width="56" valign="top" class="neiye_jian"><img src="images/neiye_jian.jpg" width="56" height="39" /></td>
+	    <td valign="top">
+			        	<div class="neiye_right_title">
+            	<div>边界安全类</div>
+                <dd>您的位置 > <a href="index.html">首页</a> > <A href="temp-NGFW.html">安全产品</A>  > <span>NGFW下一代防火墙系统</span></dd>
+            </div>
+            <div class="neiye_body chanpin_content">
+            	<p><br /></p>            </div>
+			            <div class="chanpin_menu">
+           	  <a href="javascript:;" data="1" class="active">产品描述</a>
+           	  <a href="javascript:;" data="2">产品方案</a>
+            </div>
+          <div class="chanpinlist_1 chanpinlist neiye_body">
+            	<p style="text-align:center;line-height:2em;"><strong><span style="font-size:16px;font-family:微软雅黑, &#39;microsoft yahei&#39;;">NGFW下一代防火墙系统</span></strong></p><p style="line-height:2em;text-indent:2em;"><strong><span style="font-size:14px;font-family:微软雅黑, &#39;microsoft yahei&#39;;">产品概述</span></strong></p><p style="line-height:2em;text-indent:2em;"><span style="font-size:12px;font-family:微软雅黑, &#39;microsoft yahei&#39;;">NGFW以保障用户应用安全为目标，通过 L2-L7 层全面威胁防御及强大应用安全管控技术，为用户提供领先的网络安全解决方案。</span></p><p style="line-height:2em;text-indent:2em;"><span style="font-size:12px;font-family:微软雅黑, &#39;microsoft yahei&#39;;">NGFW可精确识别数千种网络应用，并提供详尽的应用风险分析和灵活的策略管控。结合用户识别、内容识别等多维度业务场景感知，NGFW可为用户提供可视化及精细化的应用安全管理。同时，NGFW内置了先进的威胁检测引擎，能够抵御包括病毒、木马、Botnet、SQL 注入、XSS 跨站脚本、CC 攻击在内的各种网络攻击， 有效保护用户网络健康。基于全并行软硬件架构实现的 “一次解包、并行检测”，XXXX下一代防火墙在具备全面安全防护的同时，更为用户提供业界领先的安全防护性能。</span></p><p style="line-height:2em;text-indent:2em;"><span style="font-size:12px;font-family:微软雅黑, &#39;microsoft yahei&#39;;">NGFW提供了全面的应用安全防护和灵活的扩展方式，可部署于政府、金融、企业、教育等各个行业，广泛适用于互联网出口、网络与服务器安全隔离、VPN 接入等多种网络应用场景。</span></p><p style="line-height:2em;text-indent:2em;"><strong><span style="font-size:14px;font-family:微软雅黑, &#39;microsoft yahei&#39;;">产品架构</span></strong></p><p style="line-height:2em;text-indent:2em;text-align:center;"><img src="var/upload/pic/2016/08/94711471497280.png" style="float:none;width:500px;height:424px;" title="1.png" border="0" hspace="0" vspace="0" width="500" height="424" /><br /></p><p style="line-height:2em;text-indent:2em;"><strong><span style="font-size:14px;font-family:微软雅黑, &#39;microsoft yahei&#39;;">产品特点</span></strong></p><p style="line-height:2em;text-indent:2em;"><span style="font-size:12px;font-family:微软雅黑, &#39;microsoft yahei&#39;;">一站式管理，简化网管维护</span></p><p style="line-height:2em;text-indent:2em;"><span style="font-size:12px;font-family:微软雅黑, &#39;microsoft yahei&#39;;">在传统的UTM设备中，与处理引擎相对独立一样，配置管理界面中各功能配置也是相对独立的，在配置完成防火墙策略配置后，要启动入侵检测就要到IPS配置页面配置，要启动应用识别要要到应用控制页面配置，等等。这就对维护UTM的技术人员提出了很高的技术要求，无法满足设备配置人性化需求。</span></p><p style="line-height:2em;text-indent:2em;"><span style="font-size:12px;font-family:微软雅黑, &#39;microsoft yahei&#39;;">NGFW提供了一站式配置界面，并且功能模板化，可用通过配置向导，简单点击选择，拥有简单网络知识的运维人员就可以在几分钟内完成专业的网络和策略配置。</span></p><p style="line-height:2em;text-indent:2em;"><span style="font-size:12px;font-family:微软雅黑, &#39;microsoft yahei&#39;;">统一安全引擎技术</span></p><p style="line-height:2em;text-indent:2em;"><span style="font-size:12px;font-family:微软雅黑, &#39;microsoft yahei&#39;;">IPS、DPI、AV等特性都需对报文进行深度扫描，由于UTM的设计理念决定了每个报文需要经过多次扫描，严重影响了UTM的处理性能。如果防火墙能做到对每个报文只是做一次扫描后提取到后续业务处理所需全部信息，那么防火墙性能就不会像UTM那样，随着开启的功能越多性能越低。</span></p><p style="line-height:2em;text-indent:2em;"><span style="font-size:12px;font-family:微软雅黑, &#39;microsoft yahei&#39;;">NGFW将应用识别、内容检测、URL过滤、入侵检测、病毒识别五个处理引擎合为一个，采用自创高效的正则匹配算法，实现对报文的高效一次性处理。NGFW统一安全引擎的一次扫描提取报文的信息会根据开启的深度扫描功能动态调整，避免不必要的资源消耗。应用高性能的硬件平台，全部功能均启动，NGFW可处理20Gbps吞吐，可满足大多数场景需要。</span></p><p style="line-height:2em;text-indent:2em;"><span style="font-size:12px;font-family:微软雅黑, &#39;microsoft yahei&#39;;">全面威胁检测与防护</span></p><p style="line-height:2em;text-indent:2em;"><span style="font-size:12px;font-family:微软雅黑, &#39;microsoft yahei&#39;;">NGFW提供了基于深度应用识别、协议检测和攻击原理分析的入侵防御技术，可有效过滤病毒、木马、蠕虫、间谍软件、漏洞攻击、逃逸攻击等安全威胁，为用户提供 L2-L7 层网络安全防护。</span></p><p style="line-height:2em;text-indent:2em;"><span style="font-size:12px;font-family:微软雅黑, &#39;microsoft yahei&#39;;">NGFW具备优化的抗攻击识别算法，能够有效抵御如SYN Flood、UDP Flood、HTTP Flood 等 DoS/DDoS 攻击，保障网络与应用系统的安全可用性。</span></p><p style="line-height:2em;text-indent:2em;"><span style="font-size:12px;font-family:微软雅黑, &#39;microsoft yahei&#39;;">NGFW具备专业的Web 攻击防护功能，支持 SQL 注入、跨站脚本、CC攻击等检测与过滤，避免 Web 服务器遭受攻击破坏；支持外链检查和目录访问控制，防止 WebShell 和敏感信息泄露，避免网页篡改与挂马，满足用户 Web 服务器深层次安全防护需求。</span></p><p style="line-height:2em;text-indent:2em;"><span style="font-size:12px;font-family:微软雅黑, &#39;microsoft yahei&#39;;">NGFW具备高性能的病毒过滤。领先的基于流扫描技术的检测引擎可实现低延时的高性能过滤。支持对 HTTP、FTP 及各种邮件传输协议流量和压缩文件（zip，gzip，rar 等）中病毒的查杀。</span></p>
+                <p style="line-height:2em;text-indent:2em;"><span style="font-size:12px;font-family:微软雅黑, &#39;microsoft yahei&#39;;">多维立体可视化</span></p>
+                <p style="line-height:2em;text-indent:2em;"><span style="font-size:12px;font-family:微软雅黑, &#39;microsoft yahei&#39;;">NGFW基于多级立体全方位可扩展的流可视框架，开发出多种详尽的流实时可视功能，具备各种流相关信息的历史详尽记录和可视化、分析和报表。</span></p>
+                <p style="line-height:2em;text-indent:2em;"><span style="font-size:12px;font-family:微软雅黑, &#39;microsoft yahei&#39;;">NGFW支持基于接口的流量统计、基于应用的流量统计、基于应用的流量统计、基于p2p的流量统计、基于各种维度相组合的流量统计；支持应用识别分布及各应用具体分布情况；支持抗攻击事件、IPS事件、内容过滤事件等统计和报表。</span></p>
+                <p style="line-height:2em;text-indent:2em;"><span style="font-size:12px;font-family:微软雅黑, &#39;microsoft yahei&#39;;">&nbsp;</span></p><p style="line-height:2em;text-indent:2em;"><span style="font-size:12px;font-family:微软雅黑, &#39;microsoft yahei&#39;;">&nbsp;</span></p><p style="text-align:left;"><br /></p>            </div>
+            <div class="chanpinlist_2 chanpinlist neiye_body" style="display:none;">
+                <p style="text-align:center;line-height:2em;"><strong><span style="font-size:16px;font-family:微软雅黑, &#39;microsoft yahei&#39;;">NGFW下一代防火墙系统</span></strong></p><p style="text-align:left;"></p><p style="line-height:2em;text-indent:2em;"><a name="_Toc345601642" style="font-size:12px;text-decoration:none;"><strong><span style="font-size:14px;font-family:微软雅黑, &#39;microsoft yahei&#39;;">网络安全防护面临的新问题</span></strong></a></p><p style="line-height:2em;text-indent:2em;"><span style="font-size:12px;font-family:微软雅黑, &#39;microsoft yahei&#39;;">计算机和互联网应用在给人类生产和生活带来方便的同时，也滋生了各种各样的新问题，其中网络安全问题是最为重要的问题之一。网络带宽的扩充、应用的丰富、互联网用户的爆炸式增长，特别是Web&nbsp;2.0的产生和发展，使得网络面临着不同于以往的安全管理问题，黑客们不仅专门针对安全设备开发各种工具来伪装攻击、逃避检测，而且在攻击和入侵的形式上也与应用结合的越来越紧密。网络管理人员面临着新一代的各种网络威胁，已经无法使用传统防火墙、入侵检测系统等设备获得完整的安全控制管理和防御能力。</span></p><p style="line-height:2em;text-indent:2em;"><a name="_Toc345601643" style="font-size:12px;text-decoration:none;"><span style="font-size:12px;font-family:微软雅黑, &#39;microsoft yahei&#39;;">■&nbsp;</span></a><span style="font-size:12px;font-family:微软雅黑, &#39;microsoft yahei&#39;;text-decoration:none;">网络应</span><span style="font-size:12px;font-family:微软雅黑, &#39;microsoft yahei&#39;;">用日益丰富，传统安全管理不利</span></p><p style="line-height:2em;text-indent:2em;"><a name="_Toc345601644" style="font-size:12px;text-decoration:none;"><span style="font-size:12px;font-family:微软雅黑, &#39;microsoft yahei&#39;;">■&nbsp;</span></a><span style="font-size:12px;font-family:微软雅黑, &#39;microsoft yahei&#39;;text-decoration:none;">网络带宽</span><span style="font-size:12px;font-family:微软雅黑, &#39;microsoft yahei&#39;;">和流量处于失控状态</span></p><p style="line-height:2em;text-indent:2em;"><a name="_Toc345601645" style="font-size:12px;text-decoration:none;"><span style="font-size:12px;font-family:微软雅黑, &#39;microsoft yahei&#39;;">■&nbsp;</span></a><span style="font-size:12px;font-family:微软雅黑, &#39;microsoft yahei&#39;;text-decoration:none;">安全设备不断增加，网络效率随之下降</span></p><p style="line-height:2em;text-indent:2em;"><a name="_Toc345601646" style="font-size:12px;text-decoration:none;"><span style="font-size:12px;font-family:微软雅黑, &#39;microsoft yahei&#39;;">■&nbsp;</span></a><span style="font-size:12px;font-family:微软雅黑, &#39;microsoft yahei&#39;;text-decoration:none;">管理成本高，</span><span style="font-size:12px;font-family:微软雅黑, &#39;microsoft yahei&#39;;">问题定位困难</span></p><p style="line-height:2em;text-indent:2em;"><a name="_Toc345601647" style="font-size:12px;text-decoration:none;"><span style="font-size:12px;font-family:微软雅黑, &#39;microsoft yahei&#39;;">■&nbsp;</span></a><span style="font-size:12px;font-family:微软雅黑, &#39;microsoft yahei&#39;;text-decoration:none;">数据内</span><span style="font-size:12px;font-family:微软雅黑, &#39;microsoft yahei&#39;;">容外泄事件频发，业务安全直接受到威胁</span></p><p style="line-height:2em;text-indent:2em;"><a name="_Toc345601649" style="font-size:12px;text-decoration:none;"><strong><span style="font-size:14px;font-family:微软雅黑, &#39;microsoft yahei&#39;;">方案设计思路</span></strong></a></p><p style="line-height:2em;text-indent:2em;"><span style="font-size:12px;font-family:微软雅黑, &#39;microsoft yahei&#39;;">为了更好的对网络进行保护，达到更为全面、可靠的保护效果，下一代防火墙解决方案按照分区保护的思路进行设计，我们会将网络分成互联网出口区、核心业务区、机构互连区三部分，针对每一部分不同的特点和需要有针对性的部署下一代防火墙，并启用相应的功能，达到最佳的防护效果。</span></p><p style="text-align:center;line-height:2em;text-indent:2em;"><img src="var/upload/pic/2016/08/46401471497452.png" style="width:500px;height:388px;" title="1.png" border="0" hspace="0" vspace="0" width="500" height="388" /></p><p style="line-height:2em;text-indent:2em;"><span style="font-size:12px;font-family:微软雅黑, &#39;microsoft yahei&#39;;">互联网出口区的防火墙承担了网络与外界联系的安全保障工作，一方面要为办公网络提供安全防护和管理，另一方面还需要提供对外的服务发布和安全防护。</span></p><p style="line-height:2em;text-indent:2em;"><span style="font-size:12px;font-family:微软雅黑, &#39;microsoft yahei&#39;;">核心业务区的防火墙主要是保护OA服务器、文件服务器、邮件服务器等主要业务系统的安全。</span></p><p style="line-height:2em;text-indent:2em;"><span style="font-size:12px;font-family:微软雅黑, &#39;microsoft yahei&#39;;">机构互连区的防火墙负责为各分支机构和移动客户端提供安全的数据传输通道，并对分支机构对内部网络的访问进行控制和安全防护。</span></p><p style="line-height:2em;text-indent:2em;"><a name="_Toc345601653" style="font-size:12px;text-decoration:none;"><strong><span style="font-size:14px;font-family:微软雅黑, &#39;microsoft yahei&#39;;">方案价值和效果</span></strong></a></p><p style="line-height:2em;text-indent:2em;"><span style="font-size:12px;font-family:微软雅黑, &#39;microsoft yahei&#39;;">多种安全功能融为一体，提供深度安全防护</span></p><p style="line-height:2em;text-indent:2em;"><span style="font-size:12px;font-family:微软雅黑, &#39;microsoft yahei&#39;;">在网络边缘提供病毒、木马、后门程序的过滤，与桌面杀毒软件形成呼应，为终端用户提供更为安全的网络环境。</span></p><p style="line-height:2em;text-indent:2em;"><span style="font-size:12px;font-family:微软雅黑, &#39;microsoft yahei&#39;;">阻断病毒感染源头，防止病毒的反复感染，相互下载和快速更新。</span></p><p style="line-height:2em;text-indent:2em;"><span style="font-size:12px;font-family:微软雅黑, &#39;microsoft yahei&#39;;">切断僵尸网络，防止客户端僵尸网络利用，受到国家监管部门追究责任。</span></p><p style="line-height:2em;text-indent:2em;"><span style="font-size:12px;font-family:微软雅黑, &#39;microsoft yahei&#39;;">防止病毒窃取数据的回传，加强企业数据安全，防止企业形象和经济利溢的损失。</span></p><p style="line-height:2em;text-indent:2em;"><span style="font-size:12px;font-family:微软雅黑, &#39;microsoft yahei&#39;;">深度检测网络中的数据包，特别是来自互联网的访问行为，通过特征匹配、行为分析等手段，挖掘其中可能存在的安全隐患，并对异常和非法的访问行为进行阻断。</span></p><p style="line-height:2em;text-indent:2em;"><span style="font-size:12px;font-family:微软雅黑, &#39;microsoft yahei&#39;;">实现精确的应用行为管控，有效利用有限的网络资源</span></p><p style="line-height:2em;text-indent:2em;"><span style="font-size:12px;font-family:微软雅黑, &#39;microsoft yahei&#39;;">实现基于应用的访问控制，提高访问控制的精度，帮助企业更好的控制网络访问的行为。</span></p><p style="line-height:2em;text-indent:2em;"><span style="font-size:12px;font-family:微软雅黑, &#39;microsoft yahei&#39;;">从应用的角度出发进行带宽和流量的监测和控制，控制隐性流量对于网络的影响，终结网络带宽无序使用的局面。</span></p><p style="line-height:2em;text-indent:2em;"><span style="font-size:12px;font-family:微软雅黑, &#39;microsoft yahei&#39;;">过滤不良网站的访问行为，净化企业网络环境，防止不良网站带来的各种负面影响。</span></p><p style="line-height:2em;text-indent:2em;"><span style="font-size:12px;font-family:微软雅黑, &#39;microsoft yahei&#39;;">统一配置和报告，让网络管理更加简单、透明</span></p><p style="line-height:2em;text-indent:2em;"><span style="font-size:12px;font-family:微软雅黑, &#39;microsoft yahei&#39;;">实现了应用、流量、内容、用户、威胁的可视化，帮助企业更好的了解网络的安全状况，挖掘潜在的网络风险。</span></p><p style="line-height:2em;text-indent:2em;"><span style="font-size:12px;font-family:微软雅黑, &#39;microsoft yahei&#39;;">单台设备集成多项安全功能，形成统一的纵深防护体系，配置简单、实施成本低、管理方便。</span></p><h3 align="left" style="page-break-after:auto"><br /></h3>            </div>
+          <div class="chanpinlist_3 chanpinlist" style="display:none;">
+            	<ul class="chanpin_caselist">
+                	                    <li>
+                                            <!--<a href="/index.php?m=index.productsv&cid=64&id=12" target="_blank">-->
+                                            <img src="var/upload/pic/2016/08/16/ad27cb0841226b78556f5189ca58e901.bmp" />
+                                        <!--</a>-->
+                                        </li>
+                                        <li>
+                                            <!--<a href="/index.php?m=index.productsv&cid=64&id=13" target="_blank">-->
+                                                <img src="var/upload/pic/2016/08/16/3aec65bec2726c91680540addef2948b.jpg" />
+                                            <!--</a>-->
+                                        </li>
+                                    </ul>
+            </div>
+
+			          <script>
+            	$(".chanpin_menu").find("a").each(function(){
+					$(this).click(function(){
+						$(".chanpin_menu").find("a").removeAttr("class");
+						$(this).attr("class","active");
+						$(".chanpinlist").hide();
+						$(".chanpinlist_"+$(this).attr("data")+"").show();
+					});
+				});
+
+            </script>
+        </td>
+    </tr>
+  </table>
+</div>
+<div class="clear"></div>
+<div class="h_50"></div>
+
+<div class="bottom2">
+    <div class="b">
+        <div style="float:left;"></div>
+</div>
+</body>
+</html>
+
