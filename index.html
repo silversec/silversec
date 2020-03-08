@@ -13,10 +13,10 @@
 
 <body>
 <div class="top_xian"></div>
-<div class="b">
+<div class="b1">
     <table width="100%" border="0" cellspacing="0" cellpadding="0">
         <tr>
-            <td width="425" rowspan="2" style="display:none;"><a href=""><img src="images/logo.jpg" width="253" height="103" /></a></td>
+            <td width="425" rowspan="2" style="display:block;position: absolute;float: left;top: 5px;left: 60px;"><a href=""><img src="images/logo.jpg" width="188" height="80" /></a></td>
             <td height="50" align="right" class="top_right" style="position:relative;">
                 <a href="" target="_blank" style="display:none;"><img src="images/t_weibo.jpg" />官方微博</a>
                 <a href="javascript:;" class="qrcodemenu" target="_blank" style="display:none;><img src="images/t_weixin.jpg" />官方微信</a>
@@ -63,7 +63,7 @@
                 <ul class="menu">
                     <li><a href="" class="active">首&nbsp;&nbsp;&nbsp;&nbsp;页</a></li>
                     <li><a href="solutions&cid=17.html">解决方案</a>
-                        <div>
+                        <div class="box">
                             <ul>
                                 <li>
                                     <a href="solutions&cid=17.html"><img src="images/dian.jpg" />传统企业网信息安全解决方案</a>
@@ -75,9 +75,10 @@
 
                             </ul>
                         </div>
+                        <div class="bg"></div>
                     </li>
                     <li><a href="temp-NGFW.html">安全产品</a>
-                        <div style="width:160px;">
+                        <div class="box" style="width:160px;">
                             <ul>
                                 <li>
                                     <a href="temp-NGFW.html"><img src="images/dian.jpg" />NGFW下一代防火墙系统</a>
@@ -87,6 +88,7 @@
 
                             </ul>
                         </div>
+                        <div class="bg"></div>
                     </li>
                 </ul>
             </td>
@@ -95,6 +97,7 @@
 </div>
 <script>
 //    var w = $(window).width();
+    /*
       var w = 185; //控制导航栏弹出层
     $(".menu").find("li").each(function(){
         $(this).find("div").css({"width":(w)+"px"});
@@ -116,6 +119,17 @@
             $(this).find("img").attr("src","images/dian.jpg")
         });
     });
+    */
+
+    // 二级导航
+    $('.menu li').hover(function(){
+        $(this).children('.box').stop(true).show();
+        $(this).children('.bg').stop(true,false).fadeIn();
+    },function(){
+        $(this).children('.box').stop(true).hide();
+        $(this).children('.bg').stop(true,false).fadeOut();
+    })
+    $('header nav>ul>li').eq(1).addClass('active');
 </script>
 <style>
     .pogoSlider-dir-btn{display:none;}
