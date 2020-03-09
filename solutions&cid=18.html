@@ -96,14 +96,15 @@
 </div>
 <script>
 	// 二级导航
-    $('.menu li').hover(function(){
-        $(this).children('.box').stop(true).show();
-        $(this).children('.bg').stop(true,false).fadeIn();
-    },function(){
-        $(this).children('.box').stop(true).hide();
-        $(this).children('.bg').stop(true,false).fadeOut();
-    })
-    $('header nav>ul>li').eq(1).addClass('active');
+    $('.menu li').hover(
+        function(){
+            $(this).children('.box').stop(true,true).fadeIn("slow");
+            $(this).children('.bg').stop(true,true).fadeIn("slow");
+        },function(){
+            $(this).children('.box').stop(true,true).fadeOut("slow");
+            $(this).children('.bg').stop(true,true).fadeOut("slow");
+        }
+    );
 </script>
 <div class="neiye_banner" style="background:url(var/upload/pic/2015/12/15/e520c151573ec2e0bec0393348b749fe.jpg) no-repeat center #eeeeee; display:none;"></div>
 <div class="banner" style="background:url(var/upload/pic/2015/12/15//15302397986798ih7s5.jpg) no-repeat center center; height: 350px; width: 100%; z-index: 1;">
